@@ -42,6 +42,7 @@ $(document).ready(function() {
   map.addControl(new GSmallMapControl());
   
   var latlng = [
+  // TO SEE WHAT'S IN $row - REFER TO views-view-fields--branchmap.tpl.php
   <?php foreach ($rows as $id => $row):?>
     <?php print $row; ?>
   <?php endforeach; ?>
